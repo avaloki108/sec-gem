@@ -3,7 +3,7 @@
 This repository hosts SDKs and a CLI for Sec-Gemini, an experimental cybersecurity-focused AI from
 Google.
 
-**🆕 Now compatible with Claude Code!** See [CLAUDE_CODE_SETUP.md](CLAUDE_CODE_SETUP.md) for integration instructions.
+**🆕 Now compatible with Claude Code!** See [QUICKSTART.md](QUICKSTART.md) for a 5-minute setup guide or [CLAUDE_CODE_SETUP.md](CLAUDE_CODE_SETUP.md) for detailed integration instructions.
 
 **🔒 Web3 Security Supported!** Check out [WEB3_SECURITY_GUIDE.md](WEB3_SECURITY_GUIDE.md) for comprehensive web3 and blockchain security analysis.
 
