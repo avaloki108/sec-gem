@@ -14,6 +14,24 @@ Then, see `./scripts/basic_example.py` or `./scripts/basic_openai_example.py` as
 
 You can run them with: `uv run ./scripts/basic_example.py`
 
+## Web3 Security Analysis
+
+For web3 and smart contract security analysis, see:
+- `./examples/web3_security_analysis.py` - Example of analyzing smart contracts for vulnerabilities
+
+Run with: `uv run ./examples/web3_security_analysis.py`
+
+## Claude Code Integration
+
+This SDK includes MCP (Model Context Protocol) server support for Claude Code integration.
+
+To run the MCP server:
+```bash
+python -m sec_gemini mcp_server
+```
+
+See [CLAUDE_CODE_SETUP.md](../CLAUDE_CODE_SETUP.md) for detailed setup instructions.
+
 
 # Testing
 

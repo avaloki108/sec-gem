@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sec-gemini": {
+      "command": "python",
+      "args": ["-m", "sec_gemini.mcp_server"],
+      "env": {
+        "SEC_GEMINI_API_KEY": "${SEC_GEMINI_API_KEY}"
+      },
+      "description": "Sec-Gemini MCP server for cybersecurity AI interactions, including web3 security analysis"
+    }
+  }
+}

@@ -2,6 +2,10 @@
 
 ## Installation
 
+```bash
+npm install sec-gemini
+```
+
 ## Basic usage
 
 ### Streaming API
@@ -26,6 +30,20 @@ set SEC_GEMINI_API_KEY=your_key_here && npm run demo
 ```bash
 $env:SEC_GEMINI_API_KEY="your_key_here" && npm run demo
 ```
+
+## Web3 Security Analysis
+
+For web3 and smart contract security analysis, see:
+- `./examples/web3-security-analysis.ts` - Example of analyzing smart contracts for vulnerabilities
+
+Run with:
+```bash
+SEC_GEMINI_API_KEY="your-key" npx ts-node examples/web3-security-analysis.ts
+```
+
+## Claude Code Integration
+
+This SDK can be used with Claude Code via the Python MCP server. See [CLAUDE_CODE_SETUP.md](../CLAUDE_CODE_SETUP.md) for setup instructions.
 
 ## Developement
 
